@@ -1,115 +1,174 @@
+Portfolio Template
+
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Ollie Bike Sharing</title>
-  <meta charset="utf-8"/>
-  <link rel="stylesheet" type="text/css" href="main.css">
-</head>
-<body>
-  <h1>Saraya's World</h1>
-  <h2>Here is my Tagline</h2>
-  <h3>Saraya's Collaborative Bright ideas</h3>
-  <p> Basically my idea was to have a hair and nail shop and a spa to have the day to themselves and feel good about themselves you know.. Also for the single mothers it would be a day care for the kids so you know the mothers could have some space, some time to themselves, and you know do their own thing and feel like they have the day to themselves for a minute. It would also be you know a little cafe because I know sometimes when I go get my hair done it is early in the morning and my mom doesn't have time to stop to get me breakfast so it'll just be at the shop when you get there. Here is a <a href="cities.html">list</a> of cities where you can find us. </p>
-  <img src="data:image/jpeg;base64,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"/>
-</body>
-</html>
-<video width="320" height="240" controls>
-  <source src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-1/ollie.mp4" type="video/mp4">
-</video>
-</body>
-</html>
-<ul>
-  <li>A list item</li>
-  <li>A second list item</li>
-  <li>A third list item</li>
-</ul>
-<h2>Ollie</h2>
-<div class="container">
-...
-</div>
- <div class="nav">
-  <h2>Ollie</h2>
-  <ul>
-    <li>sign up</li>
-    <li>search bikes</li>
-    <li>reserve a bike</li>
-    <li>about us</li>
-  </ul>
-</div>
-<div class="main">
-  <h1>Ollie Bike Sharing</h1>
-  <h3>Share Your Pedals with the World.</h3>
-  <p>Easy-to-use, free bike sharing now available in 27 cities.</p>
-  <video width="320px" height="240" controls>
-    <source src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-1/ollie.mp4" type="video/mp4">
-  </video>
-</div>
+<html lang="en">
 
-Welcome to my world
-My name is Saraya(suh-ray-uh) if it's hard for you to say you can just call me raya.
-I had a long week well it felt like it. I'm almost ready to start my second entreeprenuer business which is making organic lip gloss and I am so excited to start this business. Because you know I really enjoy doing it like it's my passion and it's very calming to me. I also enjoyed spending time with my family like, I was riding my bike, yesterday I helped my dad clean the cars, went to the store and yea. It's fun to me because I'm like the type of person that doesn't like being in the house at all and sometimes even for a long time. I've also have been on a work-out journey and basically I've been doing thigh workouts every other day. Then I have been going walking like literally almost everyday so yea.
-My Collaborative Bright Idea-Proposal
-Basically my idea was to have a hair and nail shop and a spa to have the day to themselves and feel good about themselves you know.. Also for the single mothers it would be a day care for the kids so you know the mothers could have some space, some time to themselves, and you know do their own thing and feel like they have the day to themselves for a minute. It would also be you know a little cafe because I know sometimes when I go get my hair done it is early in the morning and my mom doesn't have time to stop to get me breakfast so it'll just be at the shop when you get there.
-<!DOCTYPE html>
-<html>
 <head>
-	<title>Sprout</title>
-	<link rel="stylesheet" type="text/css" href="main.css"/>
-</head>
-<body>
-	<h1>Mystwood Publishers Ltd.</h1>
-	<div class="hero"
-		<h2>Sprout.<h2/>
-		<p>A book by J. Daniel Bedford</p>
-		<a href="#">Read now.</a>
-	</div>
-	<p>&copy; Mystwood Publishers Limited</p>
-</body>
-</html>
-<p id="footer">&copy; Mystwood Publishers Limited</p>
-<html>
-<head>
-    <title>Tundra Gallery</title>
-    <meta charset="utf-8"/>
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="main.css">
+  <title>Portfolio Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- BOOTSTRAP LINKS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- MAIN.CSS LINK  -->
+  <link rel="stylesheet" type="text/css" href="main.css"/>
 </head>
 
 <body>
-    <header>
-      <h1 class="page-title">TUNDRA GALLERY</h1>
-      <p class="page-description">The Tundra Gallery is a collection of photographs from three distinct areas: arctic tundra, alpine tundra, and antarctic tundra. In tundra, the vegetation is composed of dwarf shrubs, sedges and grasses, mosses, and lichens, making for diverse ecology and stunning photos. </p>
-    </header>
 
-    <div class="gallery">
-      <figure class="gallery-item">
-        <img class="thumbnail" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss1.jpg">
-      </figure>
-      <figure class="gallery-item">
-        <img class="thumbnail" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss2.jpg">
-      </figure>
-      <figure class="gallery-item">
-        <img class="thumbnail" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss3.jpg">
-      </figure>
-      <figure class="gallery-item">
-        <img class="thumbnail" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss4.jpg">
-      </figure>
-      <figure class="gallery-item">
-        <img class="thumbnail" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss5.jpg">
-      </figure>
-      <figure class="gallery-item">
-        <img class="thumbnail" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss6.jpg">
-      </figure>
+<!-- HERE IS WHERE YOUR NAV BAR STARTS -->
+<a id="home"></a>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Salona</a>
     </div>
-
-      <nav>
-      <ul>
-        <li><a href="#"><b>Arctic</b></a></li>
-        <li><a href="#">Alpine</a></li>
-        <li><a href="#">Antarctic</a></li>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-      <div class="contact-btn"><a>Contact</a>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>   Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- HERE IS WHERE YOUR NAV BAR ENDS -->
+
+<!-- HERE WHERE YOUR "HERO" INFO STARTS -->
+  <div class="jumbotron">
+    <div class="container text-center">
+      <img src="https://images.unsplash.com/photo-1573165349168-b66c8bc087fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiQjEyMDd9&auto=format&fit=crop&w=1649&q=80=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <h1>My Collaborative Bright Idea</h1>
+      <p>A Salon that has a Daycare, Cafe, Hair Store and a Nail Salon. All in one </p>
+    </div>
+  </div>
+<!-- HERE WHERE YOUR "HERO" INFO ENDS -->
+
+<div class="container-fluid bg-3 text-center">
+
+<!-- YOUR "ABOUT" SECTION -->
+  <a id="about"></a>
+  <h2>About</h2>
+  <br><br>
+  <p>My idea was to have a hair and nail shop and a spa to have the day to themselves and feel good about themselves. Also for the single mothers it would be a day care for the kids so you know the mothers could have some time to themselves, and do their own thing and feel like they have the day to themselves for a minute. A little cafe will also be included, I know sometimes when I go get my hair done it is early in the morning and my mom doesn't have time to stop to get me breakfast so it'll just be at the shop when you get there.
+</p>
+  <br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <h3>Our goals</h3>
       </div>
-    </nav>
-  </body>
+      <div class="col-sm-3">
+        <h4>Goal #1</h4>
+        <p>My goal is to make mothers feel special and just people and general because I know that taking care of children is not easy.</p>
+      </div>
+      <div class="col-sm-3">
+        <h4>Goal #2</h4>
+        <p>To allow single mothers to breathe for a minute without their kids beside them and actually feel like they are relaxed.</p>
+      </div>
+      <div class="col-sm-3">
+        <h4>Goal #3</h4>
+        <p> Provide the needs and care of single mothers such as daycare for the kids to play have fun, If you get hungry we have a cafe, a spa to feel relaxed.</p>
+      </div>
+    </div>
+  </div>
+<br><br><br>
+<!-- END OF "ABOUT" SECTION -->
+
+<!-- YOUR "GALLERY" SECTION -->
+  <a id="gallery"></a>
+  <h3><a id="gallery"></a>
+  <h3>My Purpose</h3>
+  <br><br>
+  <p>To meet the needs and requirements of every customer and of the people that work for me (employees).
+It serves single mothers, women, men and children.
+Does the service for single mothers who need help with their kids and to break.</p>
+  <br><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="https://images.unsplash.com/photo-1529245019870-59b249281fd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60=IMAGE" class="project-img" style="width:100%" alt="Image">
+      <p>It is literally how I feel early in the morning going to get my hair done and then I get hungry so it’s like I just put two and two together.</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="https://images.unsplash.com/photo-1553316460-7c34c34dcbe7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60=IMAGE" class="project-img" style="width:100%" alt="Image">
+      <p>Who doesn't get their hair and their nails done at the same time. So might as well just do it all at one time and then I want you to make you feel as relaxed as possible, so I added a spa.</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="https://images.unsplash.com/photo-1522621032211-ac0031dfbddc?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60=IMAGE" class="project-img" style="width:100%" alt="Image">
+      <p>I have back problems and I just don't like to see single mothers struggle so let me make it easy for you. I also just like to help people you know I am a helper, that's just my nature. I like to help people!</p>
+    </div>
+  </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="https://images.unsplash.com/photo-1550005869-5fca7db35ddb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60=IMAGE" class="project-img" style="width:100%" alt="Image">
+      <p> to have a hair and nail shop and a spa to have the day to themselves and feel good about themselves you know.  Also for the single mothers it would be a day care for the kids so you know the mothers could have some space, some time to themselves, and you know do their own thing and feel like they have the day to themselves for a minute. </p>
+    </div>
+    <div class="col-sm-4">
+      <img src="https://images.unsplash.com/photo-1526052902936-2f0e8fa5121a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60=IMAGE" class="project-img" style="width:100%" alt="Image">
+      <p>It would also be you know a little cafe because I know sometimes when I go get my hair done it is early in the morning and my mom doesn't have time to stop to get me breakfast so it'll just be at the shop when you get there. </p>
+    </div>
+    <div class="col-sm-4">
+      <img src="https://images.unsplash.com/photo-1508205065970-cad01cebebb4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60=IMAGE" class="project-img" style="width:100%" alt="Image">
+      <p>Also to benefit the lives of single mothers with children and provide the care that they need to relax and do them for a day. Well I would do it for free and to get money so it can be profitable or unprofitable. But we can do fundraisers and cookouts. You know different things.</p>
+    </div>
+  </div>
+</div><br><br>
+<!-- END OF "GALLERY" SECTION -->
+
+<!-- YOUR "FOOTER" SECTION -->
+<footer>
+<a id="contact"></a>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <img src="https://images.unsplash.com/photo-1493655161922-ef98929de9d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="project-img" style="width:50%" alt="Image">
+        <br><br>
+        <p>To meet the needs and requirements of every customer and of the people that work for me (employees).
+It serves single mothers, women, men and children.
+Does the service for single mothers who need help with their kids and to break.
+</p>
+      </div>
+      <div class="col-sm-6">
+        <h4>Contact</h4>
+        <br>
+        <p><b>We are open from
+          Monday-Friday 12pm-8:30pm &
+          Saturday 8am-6pm
+          & Sunday 3pm-9pm</p></b>
+        <br><br>
+        <p>Blessed1Queen@gmail.com</p>
+        <p>100 Buford Rd, Bon Air, VA 23235</p>
+        <p>(804)-555-1000</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- END OF "FOOTER" SECTION -->
+
+</body>
 </html>
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
