@@ -2,7 +2,7 @@
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
-  background-color: pink
+  background-color: pink;
 }
 
 /* Add a gray background color and some padding to the footer */
@@ -10,4 +10,8 @@ footer {
   background-color: #f2f2f2;
   padding: 25px;
 }
-© 2020 GitHub, Inc.
+
+.project-img { 
+  object-fit: cover; 
+  width: 100%; 
+  max-height: 200px; }
